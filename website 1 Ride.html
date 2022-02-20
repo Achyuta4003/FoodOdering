@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Joy!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: auto;
+        }
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navbar {
+            border: 2px solid black;
+            background-color: rgb(230, 220, 220);
+            width: 1000px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            /* font-size: 15px; */
+            text-align: center;
+            font-weight: bold;
+        }
+
+        li {
+            display: inline;
+            list-style: none;
+        }
+
+        .ulleft div {
+            display: inline;
+        }
+
+        .logo img {
+            background-color: white;
+            border-radius: 50px;
+            float: left;
+            border: 1px solid orangered;
+            padding: 0px;
+            height: 50px;
+            width: 50px;
+            margin-left: 10px;
+        }
+
+        .nav3 li {
+            float: right;
+            margin-top: 15px;
+
+        }
+
+        .nav1 li {
+            float: left;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+
+         a {
+            color: rgb(7, 7, 7);
+            padding: 10px 10px;
+            margin: 10px 10px;
+            text-decoration: none;
+        }
+
+        .nav2 input {
+            margin: 10px;
+            /* margin: auto; */
+            padding: 10px 10px;
+            width: 250px;
+            border-radius: 8px;
+        }
+
+        .container {
+            height: 500px;
+            width: 1000px;
+            background-repeat: repeat-x;
+            background-image: url(/background.png);
+            background-size: contain;
+        }
+
+        .sidebar {
+            height: 206px;
+            width: 302px;
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color: white;
+            position: relative;
+            left: -326px;
+            top: 42px;
+            padding: 45px 28px;
+        }
+
+        footer {
+            width: 1000px;
+            border: 2px solid black;
+            background-color: rgb(230, 220, 220);
+            position: relative;
+            bottom: 10px;
+            overflow: auto;
+            font-weight: bold;
+        }
+        .foot details,  p, .foot button{
+            float: left;
+            padding: 10px 10px;
+            margin: 10px 10px;
+        }
+        .foot button{
+            float: right;
+            padding: 10px 10px;
+            margin: 10px 10px;
+            border-radius: 8px;
+
+        }
+        .foot p{
+            margin: auto;
+            display: inline;
+            margin: 10px 145px;
+        }
+        .foot button{
+            margin-left: 8px;
+        }
+        .foot li{
+            display: block;
+        }
+        h3{
+            padding: 10px 10px;
+            color:black;
+            font-weight: bold;
+            font-size: 20px;
+            background: white;
+            margin-left: 20px;
+            border-radius: 20px;
+            display: inline-block;
+            position: relative;
+            top: 20px;
+            padding: 10px 95px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+                <ul class="ulleft">
+                    <div class="logo">
+                        <img src="https://media2.giphy.com/media/c9V7WF7lng25TLrZgc/giphy.gif?cid=790b76119766ea3a4027e8f05377704437382b8cd6c969ba&rid=giphy.gif&ct=s"
+                            alt="logo">
+                          
+
+                    </div>
+                    <div class="nav1">
+
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Reservations</a></li>
+                        <li><a href="#">Contact &#9743;</a></li>
+                    </div>
+                    <div class="nav2">
+
+                        <input type="text" id="search" placeholder="Search for Ride">
+                    </div>
+                    <div class="nav3">
+
+                        <li class="right"><a href="#">SignIn</a></li>
+                        <li class="right"><a href="#">Notification</a></li>
+                    </div>
+
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="container">
+            <h3>Welcome to RideJoy</h3>
+            <aside class="sidebar">
+                <h2 id="head1">Ride in style</h2>
+                <p id="para1">Rent a Vespa at any RideJoy location across India and enjoy unlimited kilometers!</p>
+                <button id="btn1">Ride Now &#8594;</button>
+            </aside>
+        </div>
+        <footer>
+            <div class="foot">
+                <details>
+                    <summary>Language</summary>
+                    <li>English</li>
+                    <li>Chinese</li>
+                    <li>Hindi</li>
+                    <li>Spanish</li>
+                    <li>Arabic</li>
+                    <li>French</li>
+                    <li>Bengali</li>
+                    <li>Russian</li>
+                    <li>Indonesian</li>
+                    <li>Odia</li>
+                </details>
+                <p>Thank You Visit Again.</p>
+                <button><a href="#">Facebook</a></button>
+                <button><a href="#">Instagram</a></button>
+                <button><a href="#">Twitter</a></button>
+            </div>
+        </footer>
+
+</body>
+
+</html>
